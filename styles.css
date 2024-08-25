@@ -1,0 +1,81 @@
+.shopping-list-container {
+  max-width: 500px;
+  margin: 50px auto;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.input-container {
+  display: block;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.input-container input {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-size: 18px;
+  color: rgb(77, 75, 75);
+}
+
+.input-container button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(41, 40, 40);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.filter input {
+  border: none;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+}
+
+#item-list {
+  margin-bottom: 20px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  height: 25px;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.item i {
+  color: red;
+  cursor: pointer;
+}
+
+.clear-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  background-color: transparent;
+  cursor: pointer;
+}
+.remove-item {
+  border: none;
+  background: transparent;
+}
